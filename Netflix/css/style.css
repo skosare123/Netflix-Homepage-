@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    height: 100vh;
+    background: url('../css/img/563dafe66e94d4e9272688412a7ac2b9.jpg')no-repeat center /cover;
+    font-family:  sans-serif;
+
+}
+
+.container{
+    width: 150vw;
+    color: #ff0000; 
+    
+    display: flex;
+
+}
+
+.container>.left>h1{
+    font-size: 59px;
+    top: 48px;
+    left: 15px;
+    text-transform: uppercase;
+}
+
+h1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.btn{
+    display: flex;
+    position: absolute;
+    right: 55px;
+}
+
+.right{
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+
+.btn1{
+    margin-right: 20px;
+    background:#ccc;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #ccc;
+    color:#fff;
+    font-weight: bold;
+    
+}
+
+.btn2{
+    background: #ff0000;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.mainsection{
+    color: #fff;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-family: sans-serif;
+}
+
+.title{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    line-height: 70px;
+    font-size: 30px;
+
+}
+
+.text{
+    position: relative;
+    top: 150px;
+    left: 170px;
+    line-height: 1px;
+    font-size: 18px;
+
+   
+}
+.text2{
+    position: relative;
+    top: 190px;
+    left: 170px;
+    line-height: 1px;
+    font-size: 14px;
+   
+    
+}
+.inputsection{
+    position: relative;
+    top: 200px;
+    left: 170px;
+    font-size: 40px;
+}
+
+input{
+    padding: 20px 100px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+
+
+}
+
+.btn3{
+    padding: 17px 30px;
+    border: none;
+    position: relative;
+    top: 3px;
+    outline: none;
+    background: #ff0000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 40px;
+    
+}
